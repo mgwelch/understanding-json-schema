@@ -28,10 +28,10 @@ entire schema:
 ==== ==== ==== ============
 if   then else whole schema
 ==== ==== ==== ============
-❌   ➖   ❌   ❌
-❌   ➖   ✅   ✅
-✅   ❌   ➖   ❌
-✅   ✅   ➖   ✅
+0    X    0    0
+0    X    1    1
+1    0    X    0
+1    1    X    1
 ==== ==== ==== ============
 
 For example, let's say you wanted to write a schema to handle addresses in the
